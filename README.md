@@ -1,6 +1,7 @@
 [![Create a Slack Account with us][create_slack_svg]][slack_invite]
 [![Slack Status][slack_status_svg]][slack_status]
 [![DOI][doi_svg]][doi]
+[![Website](https://github.com/sbamin/shell-novice/actions/workflows/website.yml/badge.svg?branch=gh-pages)](https://github.com/sbamin/shell-novice/actions/workflows/website.yml)
 
 shell-novice
 ============
