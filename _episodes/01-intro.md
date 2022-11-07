@@ -33,7 +33,7 @@ Using a GUI, you would not only be clicking at your desk for several hours,
 but you could potentially also commit an error in the process of completing this repetitive task.
 This is where we take advantage of the Unix shell.
 The Unix shell is both a **command-line interface** (CLI) and a scripting language,
-allowing such repetitive tasks to be done automatically and fast.
+*allowing such repetitive tasks to be done automatically and fast*.
 With the proper commands, the shell can repeat tasks with or without some modification
 as many times as we want.
 Using the shell, the task in the literature example can be accomplished in seconds.
@@ -46,7 +46,7 @@ The shell is a program where users can type commands.
 With the shell, it's possible to invoke complicated programs like climate modeling software
 or simple commands that create an empty directory with only one line of code.
 The most popular Unix shell is Bash (the Bourne Again SHell ---
-so-called because it's derived from a shell written by Stephen Bourne).
+so-called because it's derived from a shell written by [Stephen Bourne](https://en.wikipedia.org/wiki/Stephen_R._Bourne)).
 Bash is the default shell on most modern implementations of Unix and in most packages that provide
 Unix-like tools for Windows.
 
@@ -69,6 +69,24 @@ As clusters and cloud computing systems become more popular for scientific data 
 being able to interact with the shell is becoming a necessary skill.
 We can build on the command-line skills covered here
 to tackle a wide range of scientific questions and computational challenges.
+
+> ## Trivia: Is computer terminal a software application or hardware or something else?
+>
+> We often say to use Terminal to type shell commands. Accordingly, is *Computer Terminal* a
+> software application or hardware device?
+>
+>
+> > ## Solution
+> > With a nuance, [Computer Terminal](https://en.wikipedia.org/wiki/Computer_terminal) is in fact a hardware device that can be used to exchange input/output
+> > data from a computer. Physical terminals date back to 1960s, well before the arrival of GUIs for Windows and Mac OS!
+> > Terminal applications that we use on our computers are in fact called *terminal emulators* and what we see/type commands using CLI are
+> > one or more of [pseudoterminals](https://en.wikipedia.org/wiki/Pseudoterminal), also abbreviated as *pty*.
+> > These pseudoterminals provide a convenient way to let one or more users interact
+> > with the master process on the computer, either a local or a remote computer (via SSH).
+> > Type `tty` command in your terminal window and it will show you a pty file path that connects to a master process.
+> > Now, open a new terminal window and run `tty` to notice a second (or more if you have more windows open) pty path.
+> {: .solution}
+{: .challenge}
 
 Let's get started.
 
